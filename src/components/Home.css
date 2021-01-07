@@ -1,0 +1,85 @@
+.home-container{
+    margin-top: 5rem;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.parallax-col-img{
+    background-image: url("/home/vivek/ess-frontend-react/src/assets/carWallpaper.jpg");
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-col-text {
+    font-family: Georgia;
+    font-weight: normal;
+    margin: 5em auto;
+    line-height: 1.25;
+    padding: 5em;
+    position: relative;
+    text-align: center;
+    width: 20em;
+    transition: line-height 1s ease-in-out;
+    color: white;
+}
+  
+.parallax-col-text:hover {
+    line-height: 2.5;
+}
+  
+.parallax-col-text:after {
+    border-radius: 0 0 100% 100%;
+    content: '';
+    bottom: 0.5em;
+    left: 1%;
+    right: 1%;
+    top: 75%;
+    position: absolute;
+    z-index: -1;
+}
+  
+.parallax-col-text br {
+    line-height: 1
+}
+
+.overlay-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia;
+    font-weight: normal;
+    line-height: 1.50;
+    text-align: center;
+    transition: line-height 1s ease-in-out;
+    color: white;
+}
+
+.centered:hover {
+    line-height: 2.5;
+}
+  
+.centered:after {
+    border-radius: 0 0 100% 100%;
+    content: '';
+    bottom: 0.5em;
+    left: 1%;
+    right: 1%;
+    top: 75%;
+    position: absolute;
+    z-index: -1;
+}
+  
+.centered br {
+    line-height: 1
+}

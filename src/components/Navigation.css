@@ -1,0 +1,44 @@
+.Navbar-container{
+    background-color: black;
+    height: 5rem;
+    color: white;
+}
+
+.Navlink-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white !important;
+    text-transform: uppercase;
+    margin-left: 3rem;
+}
+
+
+.Navlink-btn:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #019fb6;  
+    padding-bottom: 3px;
+    transform: scaleX(0);  
+    transition: transform 400ms ease-in-out;
+}
+
+.Navlink-btn:hover:after {
+    transform: scaleX(1.4);
+}
+
+.Navlink-btn:hover {
+    font-weight: 900; 
+}
+
+#basic-nav-dropdown{
+    color: white !important;
+    margin-left: 3rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .Navlink-btn {
+        margin-left: 0rem;
+    }
+}
