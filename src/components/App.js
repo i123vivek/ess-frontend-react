@@ -20,12 +20,7 @@ class App extends Component {
                         <div className="container-fluid">Hello vivek</div>
                     </div>
                 </BrowserRouter>
-                {/* <Navigation /> */}
-                {/* <Home /> */}
-
             </div>
-
-
         );
     }
 }

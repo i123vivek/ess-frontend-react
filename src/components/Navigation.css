@@ -1,7 +1,7 @@
 .Navbar-container{
     background-color: black;
-    height: 5rem;
-    color: white;
+    min-height: 5rem;
+    /* color: white; */
 }
 
 .Navlink-btn {
@@ -40,5 +40,19 @@
 @media (max-width: 991px) {
     .Navlink-btn {
         margin-left: 0rem;
+    }
+
+    #basic-nav-dropdown{
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Navlink-btn {
+        margin-left: 2rem;
+    }
+
+    #basic-nav-dropdown{
+        margin-left: 2rem;
     }
 }
